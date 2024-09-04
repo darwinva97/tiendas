@@ -1,0 +1,22 @@
+{
+  "name": "@repo/auth",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lucia-auth/adapter-drizzle": "^1.1.0",
+    "@lucia-auth/adapter-postgresql": "^3.1.2",
+    "@repo/config": "workspace:*",
+    "@repo/db": "workspace:*",
+    "lucia": "^3.2.0",
+    "zod": "^3.23.8"
+  }
+}
